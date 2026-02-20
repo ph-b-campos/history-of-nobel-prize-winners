@@ -19,7 +19,6 @@ The Nobel Prize has been among the most prestigious international awards since 1
 The dataset contains records of all prize winners from the outset of the awards. To extract meaningful insights, I implemented the following analytical pipeline:
 
 * **Data Integrity & Imputation:** Investigated null values in demographic columns, identifying them as institutional winners (e.g., the Red Cross, UNHCR) rather than missing individual data.
-* **Feature Engineering:** Created a `decade` feature to group continuous temporal data, allowing for ratio calculations and macro-trend analysis over time.
 * **Aggregations & Ratios:** Built nested data groupings to calculate the exact percentage of US-born winners per decade and to isolate the top category/decade combinations with the highest proportion of female laureates.
 
 ## 3. Tech Stack
